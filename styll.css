@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50; /* Dark background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ecf0f1; /* Light text color */
+}
+
+.container {
+    text-align: center;
+    background-color: #3498db; /* Blue container background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
+
+/* Style the form inputs and button */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ecf0f1; /* Light text color */
+}
+
+form input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #2ecc71; /* Green button background color */
+    color: #ecf0f1; /* Light text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Style the weather information */
+#weatherInfo p {
+    color: #2c3e50; /* Dark text color */
+    margin: 8px 0;
+}
